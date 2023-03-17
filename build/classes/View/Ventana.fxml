@@ -9,28 +9,32 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="524.0" prefWidth="888.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.VentanaController">
+<AnchorPane id="AnchorPane" prefHeight="524.0" prefWidth="888.0" style="-fx-background-color: ;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.VentanaController">
     <children>
-      <ImageView fitHeight="524.0" fitWidth="888.0" pickOnBounds="true">
-         <image>
-            <Image url="@../Imagenes/abstract-explosion-background-in-gradient-green-color-asian-style-glare-effect-sunshine-sparkle-pattern-illustration-of-a-radial-ray-narrow-beam-for-backdrops-posters-.jpg" />
-         </image>
-      </ImageView>
-        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <ImageView fx:id="ImagenMeme" fitHeight="328.0" fitWidth="348.0" layoutX="270.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Imagenes/cover2.jpg" />
-         </image>
-      </ImageView>
-      <Label layoutX="121.0" layoutY="14.0" prefHeight="77.0" prefWidth="646.0" text="¿Quieres que te muestre un chiste informatico?" textAlignment="CENTER" textFill="WHITE">
-         <font>
-            <Font name="Lucida Sans Typewriter Regular" size="23.0" />
-         </font>
-      </Label>
-      <Button fx:id="BotonSi" layoutX="336.0" layoutY="458.0" mnemonicParsing="false" onAction="#ActionOfButton" prefHeight="46.0" prefWidth="216.0" style="-fx-background-radius: 20px;" text="SI!!!">
-         <font>
-            <Font name="Segoe UI Black" size="12.0" />
-         </font>
-      </Button>
+        <ImageView fitHeight="524.0" fitWidth="888.0" pickOnBounds="true">
+            <image>
+                <Image url="@../Imagenes/abstract-explosion-background-in-gradient-green-color-asian-style-glare-effect-sunshine-sparkle-pattern-illustration-of-a-radial-ray-narrow-beam-for-backdrops-posters-.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="texto" layoutX="219.0" layoutY="20.0" prefHeight="66.0" prefWidth="451.0" style="-fx-background-color: #ffffff;" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="ImagenMeme" fitHeight="328.0" fitWidth="348.0" layoutX="270.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Imagenes/cover2.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="titulo" layoutX="121.0" layoutY="14.0" prefHeight="77.0" prefWidth="646.0" style="-fx-background-color: #ffffff;" text="¿Quieres que te muestre un chiste informatico?" textAlignment="CENTER">
+            <font>
+                <Font name="Lucida Sans Typewriter Regular" size="23.0" />
+            </font>
+        </Label>
+        <Button fx:id="BotonSi" layoutX="336.0" layoutY="458.0" mnemonicParsing="false" onAction="#ActionOfButton" prefHeight="46.0" prefWidth="216.0" style="-fx-background-radius: 20px;" text="SI!!!">
+            <font>
+                <Font name="Segoe UI Black" size="12.0" />
+            </font>
+        </Button>
     </children>
 </AnchorPane>

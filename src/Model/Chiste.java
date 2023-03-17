@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package Model;
 
-/**
- *
- * @author PC
- */
 public class Chiste {
 
     private String URL[] = {"Imagenes/imagen1.jpg", "Imagenes/imagen2.jpeg", "Imagenes/imagen3.jpg", "Imagenes/imagen4.jpeg", "Imagenes/imagen5.jpg"};
@@ -29,6 +21,5 @@ public class Chiste {
     public String getURL() {
         return URL[num];
     }
-    
-    
+
 }
