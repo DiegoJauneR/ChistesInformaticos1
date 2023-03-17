@@ -9,8 +9,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="524.0" prefWidth="888.0" style="-fx-background-color: #000000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.VentanaController">
+<AnchorPane id="AnchorPane" prefHeight="524.0" prefWidth="888.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.VentanaController">
     <children>
+      <ImageView fitHeight="524.0" fitWidth="888.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Imagenes/abstract-explosion-background-in-gradient-green-color-asian-style-glare-effect-sunshine-sparkle-pattern-illustration-of-a-radial-ray-narrow-beam-for-backdrops-posters-.jpg" />
+         </image>
+      </ImageView>
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <ImageView fx:id="ImagenMeme" fitHeight="328.0" fitWidth="348.0" layoutX="270.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
          <image>
